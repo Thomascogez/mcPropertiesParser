@@ -6,7 +6,7 @@
 
 ## Docs
 
-	### parsePropertiesFileToJson
+### parsePropertiesFileToJson
 
 | Name                      | Return                  | Description                                                  |
 | ------------------------- | ----------------------- | ------------------------------------------------------------ |
@@ -28,7 +28,7 @@ const parsedPropertiesFile = await parsePropertiesFileToJson(path)
 
 
 
-	### propertiesFileHasKey
+### propertiesFileHasKey
 
 | Name                 | Return  | Description                                       |
 | -------------------- | ------- | ------------------------------------------------- |
@@ -51,7 +51,7 @@ propertiesFileHasKey(propertiesFile, key)
 
 
 
-	### writePropertiesFile
+### writePropertiesFile
 
 | Name                | Return        | Description                                          |
 | ------------------- | ------------- | ---------------------------------------------------- |
