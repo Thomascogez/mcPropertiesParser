@@ -31,7 +31,7 @@ yarn add mcpropertiesparser
 #### example
 
 ```typescript
-import {parsedPropertiesFile} from "@thomascogez/mcprotertiesparser"
+import {parsedPropertiesFile} from "mcpropertiesparser"
 const parsedPropertiesFile = await parsePropertiesFileToJson(path)
 
 ```
@@ -54,7 +54,7 @@ const parsedPropertiesFile = await parsePropertiesFileToJson(path)
 #### example
 
 ```typescript
-import {propertiesFileHasKey} from "@thomascogez/mcprotertiesparser"
+import {propertiesFileHasKey} from "mcpropertiesparser"
 propertiesFileHasKey(propertiesFile, key)
 
 ```
@@ -77,7 +77,7 @@ propertiesFileHasKey(propertiesFile, key)
 #### example
 
 ```typescript
-import {propertiesFileHasKey} from "@thomascogez/mcprotertiesparser"
+import {propertiesFileHasKey} from "mcpropertiesparser"
 propertiesFileHasKey(propertiesFile, key)
 
 ```
