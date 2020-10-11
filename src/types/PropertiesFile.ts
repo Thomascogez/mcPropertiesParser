@@ -1,0 +1,47 @@
+export interface PropertiesFile {
+    "broadcast-rcon-to-ops"?: boolean | null
+    "view-distance"?: number | null
+    "max-build-height"?: number | null
+    "server-ip"?: string | null
+    "level-seed"?: string | null
+    "rcon.port"?: number | null
+    "gamemode"?: string | null
+    "server-port"?: number | null
+    "allow-nether"?: boolean | null
+    "enable-command-block"?: boolean | null
+    "enable-rcon"?: boolean | null
+    "enable-query"?: boolean | null
+    "op-permission-level"?: number | null
+    "prevent-proxy-connections"?: boolean | null
+    "generator-settings"?: boolean | null
+    "resource-pack"?: string | null
+    "level-name"?: string | null
+    "rcon.password"?: string | null
+    "player-idle-timeout"?: number | null
+    "motd"?: string | null
+    "query.port"?: number | null
+    "debug"?: boolean | null
+    "force-gamemode"?: boolean | null
+    "hardcore"?: boolean | null
+    "white-list"?: boolean | null
+    "broadcast-console-to-ops"?: boolean | null
+    "pvp"?: boolean | null
+    "spawn-npcs"?: boolean | null
+    "generate-structures"?: boolean | null
+    "spawn-animals"?: boolean | null
+    "snooper-enabled"?: boolean | null
+    "difficulty"?: 0 | 1 | 2 | 3 | "peaceful" | "easy" | "normal" | "hard"
+    "function-permission-level"?: number | null
+    "network-compression-threshold"?: number | null
+    "level-type"?: "default" | "flat" | "largebiomes" | "amplified" | "customized"
+    "spawn-monsters"?: boolean | null
+    "max-tick-time"?: number | null
+    "enforce-whitelist"?: boolean | null
+    "use-native-transport"?: boolean | null
+    "max-players"?: number | null
+    "resource-pack-sha1"?: string | null
+    "spawn-protection"?: number | null
+    "online-mode"?: boolean | null
+    "allow-flight"?: boolean | null
+    "max-world-size"?: number | null
+}
