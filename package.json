@@ -1,10 +1,11 @@
 {
   "name": "@thomascogez/mcprotertiesparser",
   "version": "1.0.0",
-  "description": "A simple nodejs module to simply parse and edit minecraft server config",
+  "description": "A simple, lightweight and type safe .properties file parser that allow to read/edit .properties minecraft server file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Thomascogez",
+  "homepage": "https://github.com/Thomascogez/mcPropertiesParser",
   "license": "MIT",
   "scripts": {
     "test": "jest",
@@ -19,5 +20,8 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^26.4.1",
     "typescript": "^4.0.3"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
