@@ -4,6 +4,16 @@
 
 
 
+## Install
+
+```shell
+npm install mcpropertiesparser
+# or
+yarn add mcpropertiesparser
+```
+
+
+
 ## Docs
 
 ### parsePropertiesFileToJson

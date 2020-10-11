@@ -1,5 +1,5 @@
 {
-  "name": "@thomascogez/mcprotertiesparser",
+  "name": "mcpropertiesparser",
   "version": "1.0.0",
   "description": "A simple, lightweight and type safe .properties file parser that allow to read/edit .properties minecraft server file",
   "main": "dist/index.js",
