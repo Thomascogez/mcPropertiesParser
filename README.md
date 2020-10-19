@@ -77,8 +77,9 @@ propertiesFileHasKey(propertiesFile, key)
 #### example
 
 ```typescript
-import {propertiesFileHasKey} from "mcpropertiesparser"
-propertiesFileHasKey(propertiesFile, key)
+import {writePropertiesFile} from "mcpropertiesparser"
+// it can be the same path from the actual edited file and will replace the old with the new changes
+await writePropertiesFile(properties, path)
 
 ```
 
