@@ -20,7 +20,7 @@ const convertStringToActualType = (value: string): boolean | string | number | n
         return value === "true"
     }
     //if string can be converted to int 
-    if(parseInt(trimedValue) !== NaN) {
+    if(!isNaN(parseInt(trimedValue))) {
         return parseInt(trimedValue)
     }
     // if no match return value
